@@ -39,9 +39,23 @@ Evaluation using confusion matrix and classification report showed that the mode
 Insights:
 Income, loan amount and employment_status are strong predictors of loan default.
 
+Task 3: Churn Prediction(bank_churn dataset)
 
+Objective:
 
+To identify customer churn and identify key factors influencing customer retention.
 
+Approach:
+
+Data preprocessing and encoding Train-test split Model training(Random Forest) Pipeline and hyperparameter tuning were performed to get the better results. Evaluating using accuracy, confusion matrix, ROC-AUC, classification report.
+
+Results
+
+The Random Forest model acheived an accuracy of 67% and a ROC-AUC score of 0.58, showing good overall performance in predicting customer exit behaviour. The confusion matrix indicates that the most customers were classified correctly, including 1186 non-exited and 170 exited customers. The classification report shows strong performance for non-exited customers and moderate performance for exited customers, with the correctly identifying about 40% of customers who exited the bank.
+
+Insights
+
+The key factors affecting customer exit behaviour, such as age, balance, or amount activity. Class imbalance affected model performance using SMOTE.
 
 
 
